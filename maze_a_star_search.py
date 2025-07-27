@@ -1,3 +1,7 @@
+#This is a maze solver which I wrote to understand the concept
+#of Search Algorithms and Node in artificial intelligence
+#This maze solver tries to find the best path using A* search algorithm
+
 import heapq
 import itertools
 maze = [
@@ -36,26 +40,19 @@ class PriorityQueue:
     def is_empty(self):
         return len(self.elements)==0
 
-
 def a_star_search(start, goal, maze):
     frontier = PriorityQueue()
     starting_node = Node(start, None, None, 0)
     frontier.add(0, starting_node)
-
     explored = set()
-
     while not frontier.is_empty():
         node = frontier.remove()
-
         if node.state == goal:
             return node
-
         explored.add(node.state)
-
         for action, (dx,dy) in [("up", (0,1)), ("down", (0,-1)), ("right", (1,0)), ("left", (-1,0))]:
             x, y = node.state[0] + dx, node.state[1] + dy
             next_states = (x, y)
-
             if maze[x][y] != '#' and next_states not in explored:
                 cost = node.cost + 1
                 h = heuristic((x, y), goal)
@@ -64,14 +61,12 @@ def a_star_search(start, goal, maze):
                 frontier.add(total, child)
     return None
 
-
 def construst_path(goal_node):
     path = []
     node = goal_node
     while node.parent is not None:
         path.append(node.state)
         node = node.parent
-
     path.reverse()
     return path
 
@@ -86,13 +81,3 @@ def showing_path(maze, path):
 solution_node = a_star_search(start, goal, maze)
 path = construst_path(solution_node)
 showing_path(maze, path)
-
-
-
-
-
-
-
-
-
-
