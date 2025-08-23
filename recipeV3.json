@@ -1,0 +1,23 @@
+[
+  {"name": "Butter Bread Omelette", "ingredients": ["breads", "egg", "butter"], "output": "Beat eggs, dip bread, fry with butter until golden."},
+  {"name": "Scrambled Eggs", "ingredients": ["egg", "butter", "salt"], "output": "Beat eggs, add butter and salt, stir-fry until fluffy."},
+  {"name": "Egg Sandwich", "ingredients": ["bread", "egg", "mayonnaise"], "output": "Boil eggs, mash, mix with mayonnaise, spread on bread."},
+  {"name": "Grilled Cheese", "ingredients": ["bread", "cheese", "butter"], "output": "Place cheese between bread slices, grill with butter until golden."},
+  {"name": "Peanut Butter Toast", "ingredients": ["bread", "peanut butter"], "output": "Spread peanut butter on toasted bread."},
+  {"name": "Pancakes", "ingredients": ["flour", "egg", "milk", "sugar", "butter"], "output": "Mix flour, milk, eggs, sugar. Fry with butter until fluffy."},
+  {"name": "French Fries", "ingredients": ["potato", "oil", "salt"], "output": "Cut potatoes, deep fry in oil, sprinkle with salt."},
+  {"name": "Masala Omelette", "ingredients": ["egg", "onion", "tomato", "chili", "salt"], "output": "Beat eggs with onion, tomato, chili, salt. Fry in pan."},
+  {"name": "Tomato Soup", "ingredients": ["tomato", "onion", "butter", "salt", "pepper"], "output": "Boil tomatoes with onion, blend, season with salt and pepper."},
+  {"name": "Vegetable Stir Fry", "ingredients": ["carrot", "capsicum", "onion", "oil", "soy sauce"], "output": "Chop veggies, stir fry in oil, add soy sauce."},
+  {"name": "Chicken Curry", "ingredients": ["chicken", "onion", "tomato", "garlic", "ginger", "spices"], "output": "Cook onion, garlic, ginger. Add tomato, spices, chicken. Simmer until cooked."},
+  {"name": "Vegetable Curry", "ingredients": ["potato", "carrot", "peas", "onion", "tomato", "spices"], "output": "Cook onion and tomato with spices. Add vegetables and simmer."},
+  {"name": "Egg Curry", "ingredients": ["egg", "onion", "tomato", "garlic", "ginger", "spices"], "output": "Boil eggs, make onion-tomato curry base, add eggs and simmer."},
+  {"name": "Fried Rice", "ingredients": ["rice", "egg", "carrot", "peas", "soy sauce", "oil"], "output": "Cook rice, stir fry with egg and veggies, season with soy sauce."},
+  {"name": "Chicken Fried Rice", "ingredients": ["rice", "chicken", "egg", "carrot", "peas", "soy sauce"], "output": "Cook rice, stir fry with chicken, egg, and veggies, season with soy sauce."},
+  {"name": "Mango Milkshake", "ingredients": ["mango", "milk", "sugar"], "output": "Blend mango, milk, sugar until smooth."},
+  {"name": "Banana Smoothie", "ingredients": ["banana", "milk", "honey"], "output": "Blend banana, milk, honey until creamy."},
+  {"name": "Fruit Salad", "ingredients": ["apple", "banana", "orange", "grapes", "honey"], "output": "Chop fruits, drizzle with honey, mix well."},
+  {"name": "Chocolate Cake", "ingredients": ["flour", "cocoa", "sugar", "egg", "butter", "milk"], "output": "Mix flour, cocoa, sugar, egg, butter, milk. Bake until fluffy."},
+  {"name": "Oatmeal Porridge", "ingredients": ["oats", "milk", "sugar"], "output": "Cook oats with milk and sugar until thick."},
+  {"name": "Green Tea", "ingredients": ["water", "green tea", "honey"], "output": "Boil water, steep tea, sweeten with honey."}
+]
