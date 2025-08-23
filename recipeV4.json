@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Butter Bread Omelette",
+    "ingredients": ["bread", "egg", "butter"],
+    "output": "Beat eggs, dip bread, fry with butter until golden.",
+    "flavor_profile": {"sweet": 0.1, "salty": 0.6, "spicy": 0.0, "umami": 0.4, "creamy": 0.5, "bitter": 0.0, "sour": 0.0},
+    "tastiness_rating": 8.0
+  },
+  {
+    "name": "Scrambled Eggs",
+    "ingredients": ["egg", "butter", "salt"],
+    "output": "Beat eggs, add butter and salt, stir-fry until fluffy.",
+    "flavor_profile": {"sweet": 0.0, "salty": 0.5, "spicy": 0.0, "umami": 0.5, "creamy": 0.5, "bitter": 0.0, "sour": 0.0},
+    "tastiness_rating": 8.2
+  },
+  {
+    "name": "Egg Sandwich",
+    "ingredients": ["bread", "egg", "mayonnaise"],
+    "output": "Boil eggs, mash, mix with mayonnaise, spread on bread.",
+    "flavor_profile": {"sweet": 0.0, "salty": 0.5, "spicy": 0.0, "umami": 0.5, "creamy": 0.6, "bitter": 0.0, "sour": 0.0},
+    "tastiness_rating": 8.3
+  },
+  {
+    "name": "Grilled Cheese",
+    "ingredients": ["bread", "cheese", "butter"],
+    "output": "Place cheese between bread slices, grill with butter until golden.",
+    "flavor_profile": {"sweet": 0.0, "salty": 0.7, "spicy": 0.0, "umami": 0.4, "creamy": 0.7, "bitter": 0.0, "sour": 0.0},
+    "tastiness_rating": 9.0
+  },
+  {
+    "name": "Peanut Butter Toast",
+    "ingredients": ["bread", "peanut butter"],
+    "output": "Spread peanut butter on toasted bread.",
+    "flavor_profile": {"sweet": 0.3, "salty": 0.4, "spicy": 0.0, "umami": 0.3, "creamy": 0.5, "bitter": 0.0, "sour": 0.0},
+    "tastiness_rating": 7.5
+  },
+  {
+    "name": "Pancakes",
+    "ingredients": ["flour", "egg", "milk", "sugar", "butter"],
+    "output": "Mix flour, milk, eggs, sugar. Fry with butter until fluffy.",
+    "flavor_profile": {"sweet": 0.7, "salty": 0.3, "spicy": 0.0, "umami": 0.2, "creamy": 0.6, "bitter": 0.0, "sour": 0.0},
+    "tastiness_rating": 8.8
+  },
+  {
+    "name": "French Fries",
+    "ingredients": ["potato", "oil", "salt"],
+    "output": "Cut potatoes, deep fry in oil, sprinkle with salt.",
+    "flavor_profile": {"sweet": 0.0, "salty": 0.6, "spicy": 0.0, "umami": 0.3, "creamy": 0.0, "bitter": 0.0, "sour": 0.0},
+    "tastiness_rating": 8.5
+  },
+  {
+    "name": "Masala Omelette",
+    "ingredients": ["egg", "onion", "tomato", "chili", "salt"],
+    "output": "Beat eggs with onion, tomato, chili, salt. Fry in pan.",
+    "flavor_profile": {"sweet": 0.1, "salty": 0.5, "spicy": 0.7, "umami": 0.7, "creamy": 0.3, "bitter": 0.0, "sour": 0.2},
+    "tastiness_rating": 9.0
+  },
+  {
+    "name": "Tomato Soup",
+    "ingredients": ["tomato", "onion", "butter", "salt", "pepper"],
+    "output": "Boil tomatoes with onion, blend, season with salt and pepper.",
+    "flavor_profile": {"sweet": 0.1, "salty": 0.4, "spicy": 0.3, "umami": 0.7, "creamy": 0.4, "bitter": 0.0, "sour": 0.4},
+    "tastiness_rating": 8.7
+  },
+  {
+    "name": "Vegetable Stir Fry",
+    "ingredients": ["carrot", "capsicum", "onion", "oil", "soy sauce"],
+    "output": "Chop veggies, stir fry in oil, add soy sauce.",
+    "flavor_profile": {"sweet": 0.2, "salty": 0.6, "spicy": 0.4, "umami": 0.7, "creamy": 0.0, "bitter": 0.0, "sour": 0.2},
+    "tastiness_rating": 8.2
+  },
+  {
+    "name": "Chicken Curry",
+    "ingredients": ["chicken", "onion", "tomato", "garlic", "ginger", "spices"],
+    "output": "Cook onion, garlic, ginger. Add tomato, spices, chicken. Simmer until cooked.",
+    "flavor_profile": {"sweet": 0.1, "salty": 0.4, "spicy": 0.8, "umami": 0.9, "creamy": 0.3, "bitter": 0.0, "sour": 0.3},
+    "tastiness_rating": 9.3
+  },
+  {
+    "name": "Vegetable Curry",
+    "ingredients": ["potato", "carrot", "peas", "onion", "tomato", "spices"],
+    "output": "Cook onion and tomato with spices. Add vegetables and simmer.",
+    "flavor_profile": {"sweet": 0.2, "salty": 0.4, "spicy": 0.7, "umami": 0.8, "creamy": 0.2, "bitter": 0.0, "sour": 0.3},
+    "tastiness_rating": 8.9
+  },
+  {
+    "name": "Egg Curry",
+    "ingredients": ["egg", "onion", "tomato", "garlic", "ginger", "spices"],
+    "output": "Boil eggs, make onion-tomato curry base, add eggs and simmer.",
+    "flavor_profile": {"sweet": 0.1, "salty": 0.5, "spicy": 0.7, "umami": 0.8, "creamy": 0.4, "bitter": 0.0, "sour": 0.3},
+    "tastiness_rating": 8.8
+  },
+  {
+    "name": "Fried Rice",
+    "ingredients": ["rice", "egg", "carrot", "peas", "soy sauce", "oil"],
+    "output": "Cook rice, stir fry with egg and veggies, season with soy sauce.",
+    "flavor_profile": {"sweet": 0.1, "salty": 0.6, "spicy": 0.3, "umami": 0.8, "creamy": 0.3, "bitter": 0.0, "sour": 0.2},
+    "tastiness_rating": 8.6
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "ingredients": ["rice", "chicken", "egg", "carrot", "peas", "soy sauce"],
+    "output": "Cook rice, stir fry with chicken, egg, and veggies, season with soy sauce.",
+    "flavor_profile": {"sweet": 0.1, "salty": 0.6, "spicy": 0.4, "umami": 0.9, "creamy": 0.3, "bitter": 0.0, "sour": 0.2},
+    "tastiness_rating": 9.1
+  },
+  {
+    "name": "Mango Milkshake",
+    "ingredients": ["mango", "milk", "sugar"],
+    "output": "Blend mango, milk, sugar until smooth.",
+    "flavor_profile": {"sweet": 0.9, "salty": 0.1, "spicy": 0.0, "umami": 0.2, "creamy": 0.7, "bitter": 0.0, "sour": 0.2},
+    "tastiness_rating": 9.2
+  },
+  {
+    "name": "Banana Smoothie",
+    "ingredients": ["banana", "milk", "honey"],
+    "output": "Blend banana, milk, honey until creamy.",
+    "flavor_profile": {"sweet": 0.8, "salty": 0.1, "spicy": 0.0, "umami": 0.2, "creamy": 0.8, "bitter": 0.0, "sour": 0.1},
+    "tastiness_rating": 9.0
+  },
+  {
+    "name": "Fruit Salad",
+    "ingredients": ["apple", "banana", "orange", "grapes", "honey"],
+    "output": "Chop fruits, drizzle with honey, mix well.",
+    "flavor_profile": {"sweet": 0.8, "salty": 0.0, "spicy": 0.0, "umami": 0.2, "creamy": 0.2, "bitter": 0.0, "sour": 0.3},
+    "tastiness_rating": 8.5
+  },
+  {
+    "name": "Chocolate Cake",
+    "ingredients": ["flour", "cocoa", "sugar", "egg", "butter", "milk"],
+    "output": "Mix flour, cocoa, sugar, egg, butter, milk. Bake until fluffy.",
+    "flavor_profile": {"sweet": 0.8, "salty": 0.2, "spicy": 0.0, "umami": 0.3, "creamy": 0.7, "bitter": 0.3, "sour": 0.0},
+    "tastiness_rating": 9.5
+  },
+  {
+    "name": "Oatmeal Porridge",
+    "ingredients": ["oats", "milk", "sugar"],
+    "output": "Cook oats with milk and sugar until thick.",
+    "flavor_profile": {"sweet": 0.6, "salty": 0.1, "spicy": 0.0, "umami": 0.2, "creamy": 0.6, "bitter": 0.0, "sour": 0.0},
+    "tastiness_rating": 7.8
+  },
+  {
+    "name": "Green Tea",
+    "ingredients": ["water", "green tea", "honey"],
+    "output": "Boil water, steep tea, sweeten with honey.",
+    "flavor_profile": {"sweet": 0.3, "salty": 0.0, "spicy": 0.0, "umami": 0.1, "creamy": 0.0, "bitter": 0.6, "sour": 0.0},
+    "tastiness_rating": 6.5
+  }
+]
